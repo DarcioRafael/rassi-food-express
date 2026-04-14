@@ -18,7 +18,7 @@ export default function LoginLayout() {
         headerShadowVisible: false
       }}
     />
-      <Stack.Screen
+    <Stack.Screen
       name="register"
       options={{
         headerTitle: () => (
@@ -34,6 +34,42 @@ export default function LoginLayout() {
         headerTitle: () => (
           <Image source={icons.logo01} />
         ),
+        headerTitleAlign: 'center',
+        headerShadowVisible: false
+      }}
+    />
+    <Stack.Screen
+      name="busca"
+      options={{
+        headerTitle: () => (
+          <Image source={icons.logo01}
+            style={{ width: 232, height: 42, marginTop: 10 }} />
+        ),
+        // headerShown: false,
+        headerTitleAlign: 'center',
+        headerShadowVisible: false
+      }}
+    />
+    <Stack.Screen
+      name="cardapio"
+      options={{
+        headerTitle: () => (
+          <Image source={icons.logo01}
+            style={{ width: 232, height: 42, marginTop: 10 }} />
+        ),
+        headerShown: false,
+        headerTitleAlign: 'center',
+        headerShadowVisible: false
+      }}
+    />
+    <Stack.Screen
+      name="detalhes"
+      options={{
+        headerTitle: () => (
+          <Image source={icons.logo01}
+            style={{ width: 232, height: 42, marginTop: 10 }} />
+        ),
+        headerShown: false,
         headerTitleAlign: 'center',
         headerShadowVisible: false
       }}

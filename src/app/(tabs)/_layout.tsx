@@ -55,7 +55,7 @@ export default function TabsLayout() {
         options={{
           tabBarLabel: () => null,
           tabBarIcon: ({ focused }) => (
-            <Image source={icons.abapedido}
+            <Image source={icons.abapedidos}
               style={{ width: 32, height: 32, opacity: focused ? 1 : 0.3 }} />
           ),
           headerTitle: () => (
